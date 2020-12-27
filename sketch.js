@@ -66,7 +66,7 @@ function draw() {
 
 function Go(){
 	if (keyDown(UP_ARROW)){
-		Matter.Body.applyForce(bob1.body, bob1.body.position, {x : 2, y : -2});
+		Matter.Body.applyForce(bob5.body, bob5.body.position, {x : 2, y : -2});
 	}
 }
 
