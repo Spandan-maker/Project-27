@@ -1,9 +1,9 @@
 class bob {
     constructor(x, y, r) {
       var options = {
-          'restitution' : 0.3,
-          'friction' : 0.2,
-          'density': 1.2
+          'restitution' : 1,
+          'friction' : 1,
+          'density': 0.7
       }
       
       this.x = x;
